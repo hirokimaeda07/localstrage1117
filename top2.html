@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/top.css">
+  <title>2p目</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>お気に入りのURLを登録しよう！</h1>
+  </header>
+
+  <div>
+    <p>
+      <label for="time">日付：</label>
+      <span id="today"></span>
+    </p>
+
+    <p>
+      <label for="name">名称：</label>
+      <input type="text" id="title_name" placeholder="jsとは">
+    </p>
+
+    <p>
+      <label for="url">URL：</label>
+      <input type="url" id="url" placeholder="例：http://**">
+    </p>
+
+    <button type="button" id="addbtn" value="追加">追加</button>
+    <button type="button" id="clear" value="クリア">クリア</button>
+  </div>
+
+  <div>
+    <table>
+      <thead class="table2">
+        <tr>
+          <th class="name">名称</th>
+          <th class="url">URL</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!--<a href="top.html"><button>トップページへ</button></a>-->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index2.js"></script>
+</body>
+
+</html>

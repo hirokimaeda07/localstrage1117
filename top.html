@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/top.css">
+  <title>1p目</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>To Do リスト</h1>
+    <p>日付：<a id="today"></a></p>
+  </header>
+
+  <section >
+    <!-- 1つ目 -->
+    <div class="top1">
+    <div>
+      <input type="text" id="input" placeholder="No1タイトル">
+      <textarea id="textarea" cols="50" rows="10" placeholder="NO1 To Do"></textarea>
+    </div>
+    <ul>
+      <li id="save">NO1 保存</li>
+      <li id="clear">NO1 削除</li>
+    </ul>
+    </div>
+  </section>
+
+  <section calss="top2">
+    <!-- 2つ目 -->
+    <div>
+      <input type="text" id="input" class="input2" placeholder="No2タイトル">
+      <textarea id="textarea" class="textarea2" cols="50" rows="10" placeholder="No2 To Do"></textarea>
+    </div>
+    <ul>
+      <li id="save2">NO2 保存</li>
+      <li id="clear2">NO2 削除</li>
+    </ul>
+  </section>
+
+  <ul>
+    <li id="clearall">全部 削除</li>
+  </ul>
+
+
+  <a href="top2.html"><button>次のページ</button></a>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
